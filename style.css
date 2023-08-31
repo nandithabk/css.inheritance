@@ -1,0 +1,21 @@
+/* Properties which are inherited by the child element*/
+body{
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(144, 32, 219, 0.608);
+  background-color: white;
+  line-height: normal;
+  text-align: center;
+  bottom: 20px;
+
+}
+
+/* Properties which are not inherited by the child element */
+body{
+  border: 1px solid rgb(250, 248, 245);
+  margin: 10px;
+  position: absolute;
+  top: 10px;
+  bottom: 200px;
+}
+
